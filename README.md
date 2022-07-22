@@ -1,1 +1,1 @@
-READ me file
+We will be using CURL commands to make API calls. As an instructor, you will be starting python servers and learners are going to call the API using curl commands. We will be practicing using GET, POST and PUT HTTP methods to make these calls.
