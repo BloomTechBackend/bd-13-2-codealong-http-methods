@@ -79,7 +79,7 @@ As an instructor, I am going to start a server at my end and you are going to ca
      - Now, ask the learners to write the curl command in their terminals and connect to your http get_server. As the learners start making requests, you would be able to see those requests in your ngrok terminal as well as in python output window.
         - Sample Curl command:
         ```
-       curl <forwarding url you shared above>:8000
+       curl <forwarding url you shared above>
        ```
      - Learners should receive a random question as the response to their API calls. (All the questions are listed in get_server.py)
 
@@ -99,7 +99,7 @@ As an instructor, I am going to start a server at my end and you are going to ca
         As the learners start making requests, you would be able to see those requests in your ngrok terminal as well as in python output window.
         - Sample Curl command:
        ```
-       curl -X POST <forwarding url you shared above>:8001  -d '{"username":"1", "answer":"my answer"}'
+       curl -X POST <forwarding url you shared above>  -d '{"username":"1", "answer":"my answer"}'
        ```
      - Learners should receive a success message and you can share your python output window to show the entries being created.
      
@@ -120,7 +120,7 @@ As an instructor, I am going to start a server at my end and you are going to ca
         As the learners start making requests, you would be able to see those requests in your ngrok terminal as well as in python output window.
         - Sample Curl command:
        ```
-       curl -X PUT <forwarding url you shared above>:8002/<username>  -d '{"answer":"new answer"}'
+       curl -X PUT <forwarding url you shared above>/<username>  -d '{"answer":"new answer"}'
        ```
      - Learners should receive a success message and you can share your python output window to show the entries.
 
