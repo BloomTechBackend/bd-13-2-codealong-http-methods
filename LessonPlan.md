@@ -7,8 +7,8 @@ This lesson plan template is aimed at preparing instructors to deliver a high qu
 - [ ] Watch the lesson plan overview video. ***Link to be included once lesson plan is complete***
 - [ ] After watching the lesson overview, internalize lesson plan in full
 - [ ] Set up your local machine to be prepared to teach the live session as follows:
-    - Download and install PyCharm
-    - Download and install ngrok
+    - Download and install [PyCharm](https://www.jetbrains.com/pycharm/download/#section=mac). (Select the correct OS and you can use 'community edition'.)
+    - Download and install [ngrok](https://ngrok.com/download)
 - [ ] If you are running code in your live session, make sure it works and the solution code is accurate
 - [ ] If your lesson plan includes technical steps, be sure to have walked through them first before teaching
 
