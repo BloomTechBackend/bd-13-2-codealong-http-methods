@@ -1,6 +1,8 @@
 # BD Code-Along 13.2 - HTTP requests
 
-We will be using CURL commands to make API calls. We will be practicing using GET, POST and PUT HTTP methods to make these calls.
+## We will learn
+
+- How to use CURL commands to make API calls. We will be practicing using HTTP GET, POST and PUT methods to make these calls.
 
 
 ## Requirements
